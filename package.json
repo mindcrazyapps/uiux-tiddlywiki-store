@@ -1,0 +1,31 @@
+{
+  "name": "web3uikit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "^4.1.17",
+    "next": "^12.0.7",
+    "prismjs": "^1.25.0",
+    "react": "17.0.2",
+    "react-copy-to-clipboard": "^5.0.4",
+    "react-dom": "17.0.2",
+    "react-feather": "^2.0.9",
+    "react-github-button": "^0.1.11",
+    "react-hot-toast": "^2.1.1",
+    "react-simple-code-editor": "^0.11.0",
+    "styled-components": "^5.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.24",
+    "babel-plugin-styled-components": "^1.13.2",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "typescript": "^4.4.3"
+  }
+}

@@ -185,13 +185,13 @@ const Example1 = () => {
 
 	return (
 		<div>
-			<ChooseAssets onClick={() => setShowModal(true)}>Choose Asset</ChooseAssets>
+			<ChooseAssets onClick={() => setShowModal(true)}>tiddlywiki-storage</ChooseAssets>
 
 			{showModal && (
 				<ModalOverlay>
 					<ModalConent ref={modalRef}>
 						<ModalHeader>
-							<h3>Choose Asset</h3>
+							<h3>tiddlywiki-storage</h3>
 							<div className="close" onClick={() => setShowModal(false)}>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"

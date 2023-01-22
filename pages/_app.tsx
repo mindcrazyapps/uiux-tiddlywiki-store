@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
 				<Link href="/" as="/">
 					<a className="logo">
 						<Box />
-						Web3 UI Kit
+						tiddlywiki-storage
 					</a>
 				</Link>
 

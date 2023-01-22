@@ -8,7 +8,6 @@ const ViewComponents = ({ name, children }) => {
 				<title>{name}</title>
 			</Head>
 			<h4>{name}</h4>
-
 			{children}
 		</div>
 	);

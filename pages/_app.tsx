@@ -14,11 +14,11 @@ function MyApp({ Component, pageProps }) {
 					</a>
 				</Link>
 				<nav>
-					<a href="https://github.com/Devzstudio/Web3UIKit/issues/new" target="_blank" rel="noreferrer">
+					<a href="https://github.com/mindcrazyapps/tiddlywiki-storage/issues/new" target="_blank" rel="noreferrer">
 						<AlertCircle /> Report bugs
 					</a>
 					<div className="stargazers">
-						<GitHubButton type="stargazers" namespace="devzstudio" repo="Web3UIKit" />
+						<GitHubButton type="stargazers" namespace="mindcrazyapps" repo="tiddlywiki-storage" />
 					</div>
 				</nav>
 			</header>

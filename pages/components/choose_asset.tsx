@@ -16,12 +16,6 @@ const ConnectWalletComponents = () => {
 					preview={'/previews/choose_asset/example1.png'}
 					source={`${Config.raw_component}choose_asset/Example1.tsx`}
 				/>
-				<PreviewComponent
-					name="Dark token select with common tokens"
-					Component={Example2}
-					preview={'/previews/choose_asset/example2.png'}
-					source={`${Config.raw_component}choose_asset/Example2.tsx`}
-				/>
 			</div>
 		</ViewComponents>
 	);

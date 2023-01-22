@@ -141,163 +141,163 @@ const AssetWrapper = styled.div`
 const Assets = [
 	{
 		name: 'FTP',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8upjSpvjcdpuzhfR1zriwg5NXkwDruejqNE9WNbPRtyA/logo.svg',
+		image: '',
 	},
 	{
 		name: 'SFTP',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png',
+		image: '',
 	},
 	{
 		name: 'SSH',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png',
+		image: '',
 	},
 	{
 		name: 'Bluetooth',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R/logo.png',
+		image: '',
 	},
 	{
 		name: 'SMB',
-		image: 'https://assets.coingecko.com/coins/images/18039/small/90dbe787-8e5f-473c-b923-fe138a7a30ea.png',
+		image: '',
 	},
 	{
 		name: 'Google Drive',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ATLASXmbPQxBUYbxPsV97usA3fPQYEqzQBUHgiFCUsXx/logo.png',
+		image: '',
 	},
 	{
 		name: 'Dropbox',
-		image: 'https://i.imgur.com/m3ejuhk.jpg',
+		image: '',
 	},
 	{
 		name: 'Remote-storage',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/MangoCzJ36AjZyKwVj3VnYU4GTonjfVEnJmvvWaxLac/token.png',
+		image: '',
 	},
 	{
 		name: 'Remote-storage & google drive',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'Remote-storage & dropbox',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'Tiddlywiki host',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'GitHub',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'Medium',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'Gitlab',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'Microsoft Access',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'SQLite',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'Postgres SQL',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'MongoDB',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'Couchdb',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'SQL Server',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'Local',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'Localstorage',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'Cookies',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'WebSQL',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: '5apps',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'Discourse',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'Microsoft Excel',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'Google Spreadsheets',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'Airtable',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'Baserow',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'Nocodb',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'Seatable',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'Grist',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'Codeberg',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'Bitbucket',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
-		name: 'Session storage',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		name: 'SessionStorage',
+		image: '',
 	},
 	{
 		name: 'File access',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'Orbit-db',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
 		name: 'IPFS',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		image: '',
 	},
 	{
-		name: 'IndexDB',
-		image: 'https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png',
+		name: 'IndexerDB',
+		image: '',
 	},
 ];
 

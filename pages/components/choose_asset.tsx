@@ -3,7 +3,6 @@ import React from 'react';
 import ViewComponents from 'components/view_components';
 import PreviewComponent from 'components/preview_component';
 import Example1 from 'components/kit/choose_asset/Example1';
-import Example2 from 'components/kit/choose_asset/Example2';
 import Config from 'libs/config';
 
 const ConnectWalletComponents = () => {

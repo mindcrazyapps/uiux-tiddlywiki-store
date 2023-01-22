@@ -7,10 +7,10 @@ import Config from 'libs/config';
 
 const ConnectWalletComponents = () => {
 	return (
-		<ViewComponents name="Choose Asset">
+		<ViewComponents name="tiddlywiki-storage">
 			<div>
 				<PreviewComponent
-					name="Simple Asset Select"
+					name="tiddlywiki-storage"
 					Component={Example1}
 					preview={'/previews/choose_asset/example1.png'}
 					source={`${Config.raw_component}choose_asset/Example1.tsx`}

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Categories = [
 	{
-		name: 'Choose Asset',
+		name: 'tiddlywiki-storage',
 		path: '/components/choose_asset',
 		items: 2,
 		preview: '/category_preview/choose_asset.png',

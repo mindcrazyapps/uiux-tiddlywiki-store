@@ -2,14 +2,20 @@
  <img src="https://cdn-icons-png.flaticon.com/512/8947/8947740.png" alt="image" width="70px">
 </p>
 
-<h3 align="center"> Mindcrazyapps.github.io </h3>
+<h4 align="center"> Mindcrazyapps.github.io </h3>
+
+<h3 align="right"> Please see this live demo <a href="https://tiddlywiki-storage.netlify.app/"> here </a> </h3>
 
 # tiddlywiki-storage
+
 *img 1*
 <img src="https://user-images.githubusercontent.com/123137817/213960363-2426d595-ac35-437e-9fa7-0990d2c54f6d.png" alt="image"/>
 
 *img 2*
 <img src="https://user-images.githubusercontent.com/123137817/213966726-dd9d58ac-aa64-4388-952a-186cec456629.png" alt="image"/>
+
+*img 3*
+<img src="./screenshot/example2.png" alt="image"/>
 
 ## Get started
 ```javascript
@@ -35,10 +41,3 @@ tiddlywiki-storage works like an ["odbc"](https://learn.microsoft.com/en-us/sql/
 
 #### How was made tiddlywiki-storage?
 tiddlywiki-storage is based from [Web3 UI Kit](https://github.com/devzstudio/Web3UIKit/)(Opensource Web3 UI Components using ReactJs, Styled Components) and [remotestorage-widget](https://github.com/remotestorage/remotestorage-widget), [unhosted](https://unhosted.org/apps/), [self-hosted](https://selfhosted.show/), [nullboard](https://nullboard.io/preview). 
-
-#### Is there any demo of tiddlywiki-storage working?
-Yes. So, please see this live demo [here](https://tiddlywiki-storage.netlify.app/) and please see this here:
-
-
-**img 2**
-![image](./screenshot/example2.png)

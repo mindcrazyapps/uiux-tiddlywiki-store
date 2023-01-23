@@ -32,6 +32,9 @@ One of tiddlywiki's problems is the choice of storage - there are several plugin
 #### But... so... why use tiddlywiki-storage?
 Because... it's a great option for setting up your tiddlywiki locally, remotely or on a network.
 
+#### How was made tiddlywiki-storage?
+tiddlywiki-storage is based from [Web3 UI Kit](https://github.com/devzstudio/Web3UIKit/)(Opensource Web3 UI Components using ReactJs, Styled Components) and [remotestorage-widget](https://github.com/remotestorage/remotestorage-widget), [unhosted](https://unhosted.org/apps/), [self-hosted](https://selfhosted.show/), [nullboard](https://nullboard.io/preview). 
+
 #### How does tiddlywiki-storage work? What tiddlywiki-storage does?
 tiddlywiki-storage works like an ["odbc"](https://learn.microsoft.com/en-us/sql/odbc/reference/what-is-odbc?view=sql-server-ver16) - a plugin that connects different storage services, network protocols, apis.
 
@@ -40,8 +43,6 @@ tiddlywiki-storage works like an ["odbc"](https://learn.microsoft.com/en-us/sql/
 - Browser storage: Local-Storage, Session-Storage, Cookie, IndexedDB, FileSystem and WebSQL.
 - Api&Storage Services: Gitlab, GitHub, Dropbox, Google Drive, Fission, Tiddlywiki Host, Orbit-db, SQLite, SQLServer, MySQL, MariaDB, MONGODB, Baserow, Seatable, Airtable, NocoDB and Filesystem Local.
 
-#### How was made tiddlywiki-storage?
-tiddlywiki-storage is based from [Web3 UI Kit](https://github.com/devzstudio/Web3UIKit/)(Opensource Web3 UI Components using ReactJs, Styled Components) and [remotestorage-widget](https://github.com/remotestorage/remotestorage-widget), [unhosted](https://unhosted.org/apps/), [self-hosted](https://selfhosted.show/), [nullboard](https://nullboard.io/preview). 
 
 ## Contributors
 

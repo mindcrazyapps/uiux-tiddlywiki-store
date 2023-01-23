@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
 import GitHubButton from 'react-github-button';
-import { AlertCircle, Code, Database } from 'react-feather';
+import { AlertCircle, Database } from 'react-feather';
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
@@ -19,9 +19,6 @@ function MyApp({ Component, pageProps }) {
 					<a href="https://github.com/mindcrazyapps/tiddlywiki-storage/issues/new" target="_blank" rel="noreferrer">
 						<AlertCircle /> Report bugs
 					</a>
-					<button onClick={() => setTab(3)}>
-						<Code /> Source-code
-					</button>
 					<div className="stargazers">
 						<GitHubButton type="stargazers" namespace="mindcrazyapps" repo="tiddlywiki-storage" />
 					</div>

@@ -43,7 +43,7 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
         <TiddlywikiStorage />
       </main>
-      <button hx-get="https://pokeapi.co/api/v2/pokemon/ditto/" hx-swap="outerHTML"> Click Me </button>
+      <button hx-get="https://pokeapi.co/api/v2/pokemon/ditto/" hx-trigger="load delay:1s" hx-swap="outerHTML"> Click Me </button>
     </>
   )
 }

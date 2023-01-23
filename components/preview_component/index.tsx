@@ -19,7 +19,7 @@ const PreviewComponent = ({ Component, preview, name, source }) => {
 					</button>
 					<button onClick={() => setTab(3)}>
 						<Code />
-						Code
+						Source-code
 					</button>
 				</div>
 			</div>

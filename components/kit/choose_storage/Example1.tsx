@@ -53,7 +53,7 @@ const ModalConent = styled.div`
 
 const ChooseAssets = styled.button`
 	padding: 0.5rem 1rem;
-	background-color: #3b82f6;
+	background-color: transparent; /*#3b82f6;*/
 	font-size: 1rem;
 	line-height: 1.5rem;
 	border-radius: 0.25rem;

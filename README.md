@@ -15,7 +15,7 @@ Because... it's a great option for setting up your tiddlywiki locally, remotely 
 tiddlywiki-storage works like an ["odbc"](https://learn.microsoft.com/en-us/sql/odbc/reference/what-is-odbc?view=sql-server-ver16) - a plugin that connects different storage services, network protocols, apis.
 
 #### What network protocols, apis, storage services - tiddlywiki-storage have?
-SFTP, FTP, Orbit-db, IPFS, Gitlab, GitHub, Dropbox, Google Drive, LocalStorage, SessionStorage, Cookies, IndexedDB, SQLite, SQLServer, MySQL, MariaDB, Local, SMDB etc.
+SFTP, FTP, Orbit-db, IPFS, Gitlab, GitHub, Dropbox, Google Drive, Fission, Tiddlywiki Host, LocalStorage, SessionStorage, Cookies, IndexedDB, SQLite, SQLServer, MySQL, MariaDB, Local, SMDB etc.
 
 #### How was made tiddlywiki-storage?
 tiddlywiki-storage is based from [Web3 UI Kit](https://github.com/devzstudio/Web3UIKit/)(Opensource Web3 UI Components using ReactJs, Styled Components) and [remotestorage-widget](https://github.com/remotestorage/remotestorage-widget). 

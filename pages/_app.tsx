@@ -22,14 +22,14 @@ function MyApp({ Component, pageProps }) {
             target="_blank"
             rel="noreferrer"
           >
-            <Icon.Database /> tiddlywiki-storage
+            <Icon.Database />
           </a>
           <a
             href="https://github.com/mindcrazyapps/tiddlywiki-storage/issues/new"
             target="_blank"
             rel="noreferrer"
           >
-            <Icon.AlertCircle /> Report bugs
+            <Icon.AlertCircle /> Report Bug
           </a>
           <div className="stargazers">
             <GitHubButton

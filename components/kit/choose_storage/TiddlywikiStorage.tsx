@@ -369,4 +369,4 @@ const TiddlywikiStorage = () => {
   )
 }
 
-export default TiddlywikiStorage
+export default TiddlywikiStorage;

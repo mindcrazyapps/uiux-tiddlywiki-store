@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="apple-touch-icon" sizes="180x180"  href="/static/favicon.ico"/>
         <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon.ico"/>
         <link rel="icon" type="image/png" sizes="16x16"  href="/static/favicon.ico"/>
-        <link rel="manifest" href="/site.webmanifest"/>
+        {/* <link rel="manifest" href="/site.webmanifest"/> */}
         <link rel="mask-icon" href="/static/favicon.ico" color="#5bbad5"/>
 	      <meta name="theme-color" content="#ffffff"/>
         <script  type="text/javascript" src="https://unpkg.com/htmx.org@1.8.5" async />

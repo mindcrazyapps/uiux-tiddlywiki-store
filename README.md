@@ -15,7 +15,7 @@ npm run dev # npm run start
 #### Why use tiddlywiki-storage?
 One of tiddlywiki's problems is the choice of storage - there are several plugins and settings. tiddlywiki-storage centralizes all storage decisions for the developer, user or business model into something easy and usable.
 
-#### but... so... why use tiddlywiki-storage?
+#### But... so... why use tiddlywiki-storage?
 Because... it's a great option for setting up your tiddlywiki locally, remotely or on a network.
 
 #### How does tiddlywiki-storage work? What tiddlywiki-storage does?

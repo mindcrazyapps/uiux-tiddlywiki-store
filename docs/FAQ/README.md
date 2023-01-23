@@ -1,12 +1,5 @@
 # FAQ
 
-### Get started
-```ruby
-npm install -g yarn
-npm run build
-npm run dev # npm run start
-```
-
 ### Why use tiddlywiki-store?
 One of tiddlywiki's problems is the choice of storage - there are several plugins and settings. tiddlywiki-store centralizes all storage decisions for the developer, user or business model into something easy and usable.
 

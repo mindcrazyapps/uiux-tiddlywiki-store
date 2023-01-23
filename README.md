@@ -1,10 +1,8 @@
 <br/>
 
 <p align="center">
- <img src="https://cdn-icons-png.flaticon.com/512/8947/8947740.png" alt="image" width="70px">
+ <img src="https://cdn-icons-png.flaticon.com/512/8947/8947740.png" alt="image" width="70px"> Mindcrazyapps.github.io
 </p>
-
-<h4 align="center"> Mindcrazyapps.github.io </h3>
 
 <h4 align="right"> Please see this live demo <a href="https://tiddlywiki-storage.netlify.app/"> here </a> </h3>
 

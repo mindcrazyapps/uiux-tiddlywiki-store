@@ -36,7 +36,7 @@ npm run dev # npm run start
 | Expires            	| Manually set       	| Never         	| Manually set    	| add     	| add              	| add     	| add     	| add     	| add     	| add     	|
 | Storage location   	| Browser and server 	| Browser only  	| On tab close    	| add     	| add              	| add     	| add     	| add     	| add     	| add     	|
 | API?               	| No                 	| No            	| No              	| No      	| No               	| No      	| add     	| add     	| add     	| add     	|
-| Sent with requests 	| Yes                	| No            	| No              	| add     	| add              	| add     	| add     	| add     	| add     	| add     	|
+| Sent with requests 	| Yes                	| No            	| No              	| No      	| Yes              	| Yes     	| Yes     	| Yes     	| Yes     	| Yes     	|
 
 #### Why use tiddlywiki-storage?
 One of tiddlywiki's problems is the choice of storage - there are several plugins and settings. tiddlywiki-storage centralizes all storage decisions for the developer, user or business model into something easy and usable.

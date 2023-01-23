@@ -298,7 +298,7 @@ const OptionsSync = [
   },
 ]
 
-const Example1 = () => {
+const TiddlywikiStorage = () => {
   const [term, setTerm] = React.useState('')
   const [showModal, setShowModal] = React.useState(false)
   const modalRef = useRef()
@@ -369,4 +369,4 @@ const Example1 = () => {
   )
 }
 
-export default Example1
+export default TiddlywikiStorage

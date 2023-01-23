@@ -8,6 +8,13 @@
 
 # tiddlywiki-storage
 
+### Get started
+```ruby
+npm install -g yarn
+npm run build
+npm run dev # npm run start
+```
+
 *img 1*
 <img src="https://user-images.githubusercontent.com/123137817/213960363-2426d595-ac35-437e-9fa7-0990d2c54f6d.png" alt="image"/>
 
@@ -17,12 +24,6 @@
 *img 3*
 <img src="./screenshot/example2.png" alt="image"/>
 
-## Get started
-```javascript
-npm install -g yarn
-npm run build
-npm run dev # npm run start
-```
 
 ## FAQ
 #### Why use tiddlywiki-storage?

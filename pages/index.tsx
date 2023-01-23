@@ -16,7 +16,6 @@ export default function Home() {
         <link rel="icon" type="image/png" sizes="16x16"  href="/static/favicon.ico"/>
         <link rel="manifest" href="/site.webmanifest"/>
         <link rel="mask-icon" href="/static/favicon.ico" color="#5bbad5"/>
-	      <meta name="msapplication-TileColor" content="#da532c">
 	      <meta name="theme-color" content="#ffffff"></meta>
       </Head>
     </div>

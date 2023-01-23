@@ -55,7 +55,7 @@ tiddlywiki-storage works like an ["odbc"](https://learn.microsoft.com/en-us/sql/
 - Browser storage: Local-Storage, Session-Storage, Cookie, IndexedDB, FileSystem and WebSQL.
 - Api&Storage Services: Gitlab, GitHub, Dropbox, Google Drive, Fission, Tiddlywiki Host, Orbit-db, SQLite, SQLServer, MySQL, MariaDB, MONGODB, Baserow, Seatable, Airtable, NocoDB and Filesystem Local.
 
-### Api
+### API
 ```html
 <script src="https://unpkg.com/htmx.org@1.8.5"></script>
 <!-- have a button POST a click via AJAX -->

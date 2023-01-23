@@ -1,15 +1,7 @@
 import SourceCode from 'components/source_code'
-import React, { useState } from 'react'
-import Link from "next/link";
-import { Code, Eye, Image } from 'react-feather'
-import { useRouter } from "next/router";
-
-const PreviewComponent = ({ Component, preview, name, source }) => {
+const PreviewComponent = ({ Component, preview, source }) => {
   return (
     <>
-    <Image />
-    <Code />
-    <Eye />
     <img className="preview_image" src={preview} width="100%" height="100%" />
     <Component />
     <SourceCode source={source} />

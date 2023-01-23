@@ -9,12 +9,15 @@ const PreviewComponent = ({ Component, preview, name, source }) => {
   const router = useRouter();
   const handleClick = (e, path) => {
     if (path === "#/preview") {
+      console.log(e);
       setTab(1);
     }
     if (path === "#/demo") {
+      console.log(e);
       setTab(2);
     }
     if (path === "#/source-code") {
+      console.log(e);
       setTab(3);
     }
   };
@@ -22,18 +25,18 @@ const PreviewComponent = ({ Component, preview, name, source }) => {
     <div className="tab_container">
       <div className="tab-header">
         <div className="tabs">
-          <button onClick={(e) => handleClick(e, "#/preview")}  hx-post="/clicked" hx-swap="outerHTML">
+          <Link href="/">
             <Image />
-            Preview
-          </button>
-          <button onClick={(e) => handleClick(e, "#/demo")}  hx-post="/clicked" hx-swap="outerHTML">
+            <a  onClick={(e) => handleClick(e, "#/preview")}  hx-post="/clicked" hx-swap="outerHTML">Preview</a>
+          </Link>
+          <Link href="/">
             <Eye />
-            Demo
-          </button>
-          <button onClick={(e) => handleClick(e, "#/source-code")} hx-post="/clicked" hx-swap="outerHTML">
+            <a  onClick={(e) => handleClick(e, "#/demo")}  hx-post="/clicked" hx-swap="outerHTML">Demo</a>
+          </Link>
+          <Link href="/">
             <Code />
-            Source-code
-          </button>
+            <a  onClick={(e) => handleClick(e, "#/source-code")}  hx-post="/clicked" hx-swap="outerHTML">Source-code</a>
+          </Link>
         </div>
       </div>
       {tab === 1 && (
@@ -56,6 +59,7 @@ const PreviewComponent = ({ Component, preview, name, source }) => {
 </Link>{" "}
 <Link href="/">
 <a onClick={(e) => handleClick(e, "/posts")}>Posts</a>
-</Link>*/
+</Link>
+*/
 
 export default PreviewComponent

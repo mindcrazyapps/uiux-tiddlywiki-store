@@ -7,10 +7,10 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<>
 			<header>
-				<Link href="/" as="/">
+				<Link href="/components/choose_asset" as="/components/choose_asset">
 					<a className="logo">
 						<Database />
-						tiddlywiki-storage
+						tiddlywiki-storages
 					</a>
 				</Link>
 				<nav>

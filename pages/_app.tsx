@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
 				<Link href="/components/choose_asset" as="/components/choose_asset">
 					<a className="logo">
 						<Database />
-						tiddlywiki-storages
+						tiddlywiki-storage
 					</a>
 				</Link>
 				<nav>

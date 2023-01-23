@@ -10,10 +10,10 @@ One of tiddlywiki's problems is the choice of storage - there are several plugin
 #### How does tiddlywiki-storage work?
 tiddlywiki-storage works like an ["odbc"](https://learn.microsoft.com/en-us/sql/odbc/reference/what-is-odbc?view=sql-server-ver16) - a plugin that connects different storage services, network protocols, apis.
 
-#### What network protocols, apis, storage services - tiddlywiki-storage offer or have?
+#### What network protocols, apis, storage services - tiddlywiki-storage have?
 SFTP, FTP, Orbit-db, IPFS, Gitlab, GitHub, Dropbox, Google Drive etc.
 
-#### How was tiddlywiki-storage made?
+#### How was made tiddlywiki-storage?
 tiddlywiki-storage is based from [Web3 UI Kit](https://github.com/devzstudio/Web3UIKit/)(Opensource Web3 UI Components using ReactJs, Styled Components) and [remotestorage-widget](https://github.com/remotestorage/remotestorage-widget). 
 
 #### Is there any actual demonstration of this working?

@@ -17,6 +17,13 @@ function MyApp({ Component, pageProps }) {
           </a>
         </Link>
         <nav>
+        <a
+            href="https://github.com/mindcrazyapps/tiddlywiki-storage/issues/new"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Icon.Database /> tiddlywiki-storage
+          </a>
           <a
             href="https://github.com/mindcrazyapps/tiddlywiki-storage/issues/new"
             target="_blank"

@@ -181,7 +181,7 @@ nav a:hover svg {
 }
 
 .code_preview > div {
-  background: #efefef;
+  background: white; /*#efefef;*/
   border: 1px solid #ddd;
   border-radius: 0.25rem;
 }

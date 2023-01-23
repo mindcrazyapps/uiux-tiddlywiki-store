@@ -7,11 +7,9 @@
 <h3 align="right"> Please see this live demo <a href="https://tiddlywiki-storage.netlify.app/"> here </a> </h3>
 
 # tiddlywiki-storage
-
-*img 1*
 <img src="https://user-images.githubusercontent.com/123137817/213969669-b4951c0d-7548-433f-b6b8-ea514427b05f.png" alt="image"/>
 
-*img 2*
+*img*
 <img src="https://user-images.githubusercontent.com/123137817/213966726-dd9d58ac-aa64-4388-952a-186cec456629.png" alt="image"/>
 
 ## FAQ

@@ -23,6 +23,15 @@ npm run dev # npm run start
 
 ## FAQ
 
+### API
+```html
+<script src="https://unpkg.com/htmx.org@1.8.5"></script>
+<!-- have a button POST a click via AJAX -->
+<button hx-post="/clicked" hx-swap="outerHTML">
+  Click Me
+</button>
+```
+
 #### Settings
 | Type               	| Cookies            	| Local storage 	| Session Storage 	| Web SQL 	| Google Drive     	| Dropbox 	| NocoDB 	| Airtable 	| SeaTable 	| Grist 	|
 |--------------------	|--------------------	|---------------	|-----------------	|---------	|------------------	|---------	|---------	|---------	|---------	|---------	|
@@ -50,15 +59,6 @@ tiddlywiki-storage works like an ["odbc"](https://learn.microsoft.com/en-us/sql/
 - Network protocols: SFTP, Git, FTP, SSH, IPFS, SMDB.
 - Browser storage: Local-Storage, Session-Storage, Cookie, IndexedDB, FileSystem and WebSQL.
 - Api&Storage Services: Gitlab, GitHub, Dropbox, Google Drive, Fission, Tiddlywiki Host, Orbit-db, SQLite, SQLServer, MySQL, MariaDB, MONGODB, Baserow, Seatable, Airtable, NocoDB and Filesystem Local.
-
-### API
-```html
-<script src="https://unpkg.com/htmx.org@1.8.5"></script>
-<!-- have a button POST a click via AJAX -->
-<button hx-post="/clicked" hx-swap="outerHTML">
-  Click Me
-</button>
-```
 
 ## Contributors
 

@@ -9,16 +9,13 @@ const PreviewComponent = ({ Component, preview, name, source }) => {
   const router = useRouter();
   const handleClick = (e, path) => {
     if (path === "#/preview") {
-      console.log(e);
-      setTab(1);
+      return <img className="preview_image" src={preview} width="100%" height="100%"/>
     }
     if (path === "#/demo") {
-      console.log(e);
-      setTab(2);
+      return <Component />
     }
     if (path === "#/source-code") {
-      console.log(e);
-      setTab(3);
+      return <SourceCode source={source} />
     }
   };
   return (
@@ -52,6 +49,5 @@ const PreviewComponent = ({ Component, preview, name, source }) => {
     </div>
   )
 }
-
 
 export default PreviewComponent

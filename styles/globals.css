@@ -86,7 +86,7 @@ nav a:hover svg {
 .tab_container .tabs button {
   padding: 0.5rem;
   background-color: #f3f4f6;
-  color: #6b7280;
+  color: black; /* #6b7280; */
   border-radius: 0.25rem;
   border: 1px solid #e5e7eb;
   margin-right: 0.25rem;

@@ -1,7 +1,6 @@
 import useOnClickOutside from 'hooks/useOnClickoutside'
 import React, { useRef } from 'react'
 import styled from 'styled-components'
-/*import { Database } from 'react-feather';*/
 import * as Icon from 'react-feather'
 
 const ModalOverlay = styled.div`
@@ -111,7 +110,6 @@ const ChooseAsset = styled.button`
 const AssetSearchWrapper = styled.div`
   position: relative;
   margin-bottom: 0.5rem;
-
   .search_icon {
     position: absolute;
     top: 12px;
@@ -128,7 +126,6 @@ const AssetSearch = styled.input`
   font-size: 1rem;
   background-color: #fff;
   border: 1px solid #e2e4e8;
-
   &:focus {
     background: #fff;
   }
@@ -338,6 +335,7 @@ const Example1 = () => {
             </ModalHeader>
 
             <AssetSearchWrapper>
+              <Icon.Search />
               <AssetSearch
                 onChange={(e) => setTerm(e.target.value)}
                 value={term}

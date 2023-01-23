@@ -5,7 +5,11 @@
 <h3 align="center"> Mindcrazyapps.github.io </h3>
 
 # tiddlywiki-storage
-![image](https://user-images.githubusercontent.com/123137817/213960363-2426d595-ac35-437e-9fa7-0990d2c54f6d.png)
+*img 1*
+<img src="https://user-images.githubusercontent.com/123137817/213960363-2426d595-ac35-437e-9fa7-0990d2c54f6d.png" alt="image"/>
+
+*img 2*
+<img src="https://user-images.githubusercontent.com/123137817/213966726-dd9d58ac-aa64-4388-952a-186cec456629.png" alt="image"/>
 
 #### Get started
 ```javascript
@@ -34,8 +38,6 @@ tiddlywiki-storage is based from [Web3 UI Kit](https://github.com/devzstudio/Web
 #### Is there any demo of tiddlywiki-storage working?
 Yes. So, please see this live demo [here](https://tiddlywiki-storage.netlify.app/) and please see this here:
 
-**img 1**
-<img src="https://user-images.githubusercontent.com/123137817/213966726-dd9d58ac-aa64-4388-952a-186cec456629.png" alt="image"/>
 
 **img 2**
 ![image](./screenshot/example2.png)

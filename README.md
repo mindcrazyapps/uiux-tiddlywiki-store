@@ -7,6 +7,8 @@
 <h4 align="center"> Please see this live demo <a href="https://tiddlywiki-storage.netlify.app/"> here </a> </h3>
 
 # <img src="./logo.svg"> appstore
+
+*use case: tiddlywiki+appstore - Select storage for your tiddlywiki with tiddlywiki-storage (ui)*
 <img src="./screenshot/img2.png" alt="image"/>
 
 *img*

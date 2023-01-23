@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import GitHubButton from 'react-github-button'
 import { AlertCircle } from 'react-feather'
 import '../styles/globals.css'
+import TiddlywikiStorage from './components/choose_storage'
 
 function MyApp({ Component, pageProps }) {
   const [tab, setTab] = useState(1)
@@ -40,6 +41,7 @@ function MyApp({ Component, pageProps }) {
       ></link>
       <main className="container">
         <Component {...pageProps} />
+        <TiddlywikiStorage/>
       </main>
     </>
   )

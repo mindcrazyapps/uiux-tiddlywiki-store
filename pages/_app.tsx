@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
       <header>
         <Link href="/components/choose_storage" as="/components/choose_storage">
           <a className="logo" style={{ color: 'blue' }}>
-            <Image src="/favicon.ico" width="40px" height="40px" />
+            <Image src="/static/favicon.ico" width="40px" height="40px" />
             storage
           </a>
         </Link>

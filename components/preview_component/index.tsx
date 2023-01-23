@@ -1,29 +1,41 @@
 import SourceCode from 'components/source_code'
 import React, { useState } from 'react'
 import { Code, Eye, Image } from 'react-feather'
+import { useRouter } from "next/router";
+import Link from "next/link";
 
 const PreviewComponent = ({ Component, preview, name, source }) => {
   const [tab, setTab] = useState(1)
-
+  const router = useRouter();
+  const handleClick = (e, path) => {
+    if (path === "#/preview") {
+      setTab(1);
+    }
+    if (path === "#/demo") {
+      setTab(2);
+    }
+    if (path === "#/source-code") {
+      setTab(3);
+    }
+  };
   return (
     <div className="tab_container">
       <div className="tab-header">
         <div className="tabs">
-          <button onClick={() => setTab(1)} href="/#preview">
+          <button onClick={(e) => handleClick(e, "#/preview")}>
             <Image />
             Preview
           </button>
-          <button onClick={() => setTab(2)} href="/#demo">
+          <button onClick={(e) => handleClick(e, "#/demo")}>
             <Eye />
             Demo
           </button>
-          <button onClick={() => setTab(3)} href="/#source-code">
+          <button onClick={(e) => handleClick(e, "#/source-code")}>
             <Code />
             Source-code
           </button>
         </div>
       </div>
-
       {tab === 1 && (
         <img
           className="preview_image"
@@ -37,5 +49,12 @@ const PreviewComponent = ({ Component, preview, name, source }) => {
     </div>
   )
 }
+
+<Link href="/">
+<a onClick={(e) => handleClick(e, "/about")}>About</a>
+</Link>{" "}
+<Link href="/">
+<a onClick={(e) => handleClick(e, "/posts")}>Posts</a>
+</Link>
 
 export default PreviewComponent

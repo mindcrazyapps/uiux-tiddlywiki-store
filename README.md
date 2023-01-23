@@ -1,6 +1,8 @@
 <p align="center">
- <img src="https://user-images.githubusercontent.com/123137817/213959049-8438046f-e946-4d49-ba9d-c9b5eb8376ad.png" alt="image">
+ <img src="https://cdn-icons-png.flaticon.com/512/8947/8947740.png" alt="image" width="70px">
 </p>
+
+<h3 align="center"> Mindcrazyapps.github.io </h3>
 
 # tiddlywiki-storage
 ![image](https://user-images.githubusercontent.com/123137817/213960363-2426d595-ac35-437e-9fa7-0990d2c54f6d.png)

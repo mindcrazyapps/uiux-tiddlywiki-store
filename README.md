@@ -23,7 +23,7 @@ npm run dev # npm run start
 
 ## FAQ
 
-### API
+#### API
 ```html
 <script src="https://unpkg.com/htmx.org@1.8.5"></script>
 <!-- have a button POST a click via AJAX -->

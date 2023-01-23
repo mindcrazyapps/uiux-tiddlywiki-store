@@ -1,8 +1,8 @@
 import SourceCode from 'components/source_code'
 import React, { useState } from 'react'
+import Link from "next/link";
 import { Code, Eye, Image } from 'react-feather'
 import { useRouter } from "next/router";
-import Link from "next/link";
 
 const PreviewComponent = ({ Component, preview, name, source }) => {
   const [tab, setTab] = useState(1)

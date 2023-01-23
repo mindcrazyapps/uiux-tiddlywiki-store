@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <header>
-        <Link href="/components/choose_storage" as="/components/choose_storage">
+        <Link href="/" as="/">
           <a className="logo" style={{ color: 'blue' }}>
             <img src="/static/favicon.ico" width="40px" height="40px" />
             storage

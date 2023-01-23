@@ -6,9 +6,7 @@
 
 <h5 align="center">Mindcrazyapps.github.io</h5>
 
-<h4 align="center"> Please see this live demo <a href="https://tiddlywiki-store.netlify.app/"> here </a> </h3>
-
-See this [docs](https://mindcrazyapps.github.io/tiddlywiki-store/#/)
+<h4 align="center"> Please see this live demo <a href="https://tiddlywiki-store.netlify.app/"> here </a>  and <a href="https://mindcrazyapps.github.io/tiddlywiki-store/#/"> docs </a> </h3>
 
 # <img src="./logo.svg"> tiddlywiki-store
 

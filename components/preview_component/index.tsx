@@ -22,15 +22,15 @@ const PreviewComponent = ({ Component, preview, name, source }) => {
     <div className="tab_container">
       <div className="tab-header">
         <div className="tabs">
-          <button onClick={(e) => handleClick(e, "#/preview")}>
+          <button onClick={(e) => handleClick(e, "#/preview")}  hx-post="/clicked" hx-swap="outerHTML">
             <Image />
             Preview
           </button>
-          <button onClick={(e) => handleClick(e, "#/demo")}>
+          <button onClick={(e) => handleClick(e, "#/demo")}  hx-post="/clicked" hx-swap="outerHTML">
             <Eye />
             Demo
           </button>
-          <button onClick={(e) => handleClick(e, "#/source-code")}>
+          <button onClick={(e) => handleClick(e, "#/source-code")} hx-post="/clicked" hx-swap="outerHTML">
             <Code />
             Source-code
           </button>

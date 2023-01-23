@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "docsify-cli": "^4.4.4",
     "framer-motion": "^4.1.17",
     "next": "^12.3.4",
     "prismjs": "^1.25.0",

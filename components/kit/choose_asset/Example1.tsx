@@ -331,7 +331,7 @@ const Example1 = () => {
 								onChange={(e) => setTerm(e.target.value)}
 								value={term}
 								type="search"
-								placeholder="Search name or paste address"
+								placeholder="Search and choose storage for tiddlywiki"
 							/>
 
 							<svg

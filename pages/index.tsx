@@ -9,7 +9,7 @@ export default function Home() {
           name="description"
           content="tiddlywiki-storage by mindcrazyapps"
         />
-        <link rel="icon" href="https://tiddlywiki.com/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
     </div>
   )

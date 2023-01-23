@@ -28,7 +28,15 @@ npm run dev # npm run start
 ## FAQ
 
 #### Settings
-![image](https://user-images.githubusercontent.com/123137817/213971053-f4f35801-a4d7-4610-867b-760a7ed0b326.png)
+| Type               	| Cookies            	| Local storage 	| Session Storage 	| Web SQL 	| Google Drive     	| Dropbox 	|
+|--------------------	|--------------------	|---------------	|-----------------	|---------	|------------------	|---------	|
+| Capacity           	| 4kb                	| 10mb          	| 5mb             	| add     	| 15GB in freeplan 	| 2GB     	|
+| Browsers           	| HTML4/HTML5        	| HTML5         	| HTML5           	| HTML4   	| add              	| add     	|
+| Accessible from    	| Any Window         	| Any Window    	| Same tab        	| add     	| add              	| add     	|
+| Expires            	| Manually set       	| Never         	| Manually set    	| add     	| add              	| add     	|
+| Storage location   	| Browser and server 	| Browser only  	| On tab close    	| add     	| add              	| add     	|
+| API?               	| No                 	| No            	| No              	| No      	| No               	| No      	|
+| Sent with requests 	| Yes                	| No            	| No              	| add     	| add              	| add     	|
 
 #### Why use tiddlywiki-storage?
 One of tiddlywiki's problems is the choice of storage - there are several plugins and settings. tiddlywiki-storage centralizes all storage decisions for the developer, user or business model into something easy and usable.

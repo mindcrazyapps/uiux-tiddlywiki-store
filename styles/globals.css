@@ -43,7 +43,7 @@ nav a svg {
 
 nav a:hover,
 nav a:hover svg {
-	color: #fff;
+	color: black; /* #fff; */
 }
 
 .logo {

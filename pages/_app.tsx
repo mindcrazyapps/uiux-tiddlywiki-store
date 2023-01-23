@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React, { useState } from 'react'
 import GitHubButton from 'react-github-button'
-import { AlertCircle } from 'react-feather'
+import * as Icon from 'react-feather'
 import '../styles/globals.css'
 import TiddlywikiStorage from './components/choose_storage'
 
@@ -13,6 +13,7 @@ function MyApp({ Component, pageProps }) {
         <Link href="/" as="/">
           <a className="logo" style={{ color: 'blue' }}>
             <img src="/static/favicon.ico" width="40px" height="40px" />
+            <Icon.Database />
             storage
           </a>
         </Link>
@@ -22,7 +23,7 @@ function MyApp({ Component, pageProps }) {
             target="_blank"
             rel="noreferrer"
           >
-            <AlertCircle /> Report bugs
+            <Icon.AlertCircle /> Report bugs
           </a>
           <div className="stargazers">
             <GitHubButton

@@ -10,9 +10,9 @@ function MyApp({ Component, pageProps }) {
 		<>
 			<header>
 				<Link href="/components/choose_storage" as="/components/choose_storage">
-					<a className="logo">
-						<Database />
-						tiddlywiki-storage
+					<a className="logo" style={{"color": "blue"}}>
+						<img src="https://tiddlywiki.com/favicon.ico" width="40px"/>
+						storage
 					</a>
 				</Link>
 				<nav>

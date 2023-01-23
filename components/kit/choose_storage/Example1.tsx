@@ -1,7 +1,8 @@
 import useOnClickOutside from 'hooks/useOnClickoutside';
 import React, { useRef } from 'react';
 import styled from 'styled-components';
-import { Database } from 'react-feather';
+/*import { Database } from 'react-feather';*/
+import * as Icon from 'react-feather';
 
 const ModalOverlay = styled.div`
 	background: hsla(0, 0%, 100%, 0.01) !important;
@@ -51,7 +52,7 @@ const ModalConent = styled.div`
 	}
 `;
 
-/*background-color: #3b82f6;*/
+/*background-color: #3b82f6; color: "#fff"; */
 const ChooseAssets = styled.button`
 	padding: 0.5rem 1rem;
 	background-color: transparent; 
@@ -60,12 +61,14 @@ const ChooseAssets = styled.button`
 	border-radius: 0.25rem;
 	cursor: pointer;
 	border: 0;
-	color: #fff;
+	color: black;
 
 	&:hover {
-		background: #2563eb;
+		background: transparent;
 	}
 `;
+
+//  &:hover -> #2563eb;
 
 const ModalHeader = styled.div`
 	display: flex;
@@ -306,7 +309,7 @@ const Example1 = () => {
 
 	return (
 		<div>
-			<ChooseAssets onClick={() => setShowModal(true)}> <Database/> </ChooseAssets>
+			<ChooseAssets onClick={() => setShowModal(true)}> <Icon.Database style={{"color":"black;"}}/> </ChooseAssets>
 
 			{showModal && (
 				<ModalOverlay>

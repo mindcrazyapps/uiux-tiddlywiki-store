@@ -6,7 +6,7 @@ export default function Home() {
 			<Head>
 			    <title>tiddlywiki-storages</title>
 				<meta name="description" content="tiddlywiki-storage by mindcrazyapps" />
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="https://tiddlywiki.com/favicon.ico" />
 			</Head>
 		</div>
 	);

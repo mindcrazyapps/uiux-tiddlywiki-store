@@ -10,14 +10,17 @@ One of tiddlywiki's problems is the choice of storage - there are several plugin
 #### Is there any demo of tiddlywiki-storage working?
 Yes. So, please see this live demo [here](https://tiddlywiki-storage.netlify.app/)
 
-#### How was tiddlywiki-storage made?
-tiddlywiki-storage is based from [Web3 UI Kit](https://github.com/devzstudio/Web3UIKit/)(Opensource Web3 UI Components using ReactJs, Styled Components) and [remotestorage-widget](https://github.com/remotestorage/remotestorage-widget). 
-
-#### What network protocols, apis, storage services do they offer?
-SFTP, FTP, Orbit-db, IPFS, Gitlab, GitHub, Dropbox, Google Drive etc.
+#### How does tiddlywiki-storage work?
+Please see this.
 
 **img 1**
 ![image](./screenshot/example1.png)
 
 **img 2**
 ![image](./screenshot/example2.png)
+
+#### How was tiddlywiki-storage made?
+tiddlywiki-storage is based from [Web3 UI Kit](https://github.com/devzstudio/Web3UIKit/)(Opensource Web3 UI Components using ReactJs, Styled Components) and [remotestorage-widget](https://github.com/remotestorage/remotestorage-widget). 
+
+#### What network protocols, apis, storage services do they offer?
+SFTP, FTP, Orbit-db, IPFS, Gitlab, GitHub, Dropbox, Google Drive etc.

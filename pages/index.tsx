@@ -22,11 +22,7 @@ export default function Home() {
 				{Categories.map((category, index) => (
 					<Link key={index} href={category.path} as={category.path}>
 						<a className="preview_card">
-							<img src={category.preview} alt={category.name} width="250px" height="250px" />
-							<div className="details">
-								<h3>{category.name}</h3>
-								<p>{category.items} components</p>
-							</div>
+							<p>{category.items} components</p>
 						</a>
 					</Link>
 				))}

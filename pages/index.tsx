@@ -10,6 +10,7 @@ export default function Home() {
           name="description"
           content="tiddlywiki-storage by mindcrazyapps"
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="/static/favicon.ico"/>
         <link rel="apple-touch-icon" sizes="180x180"  href="/static/favicon.ico"/>
         <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon.ico"/>

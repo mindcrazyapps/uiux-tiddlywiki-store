@@ -16,7 +16,6 @@ function MyApp({ Component, pageProps }) {
             tiddlywiki-storage
           </a>
         </Link>
-        <TiddlywikiStorage/>
         <nav>
           <a
             href="https://github.com/mindcrazyapps/tiddlywiki-storage/issues/new"

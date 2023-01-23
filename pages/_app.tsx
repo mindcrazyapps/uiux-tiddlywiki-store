@@ -41,8 +41,16 @@ function MyApp({ Component, pageProps }) {
       ></link>
       <main className="container">
         <Component {...pageProps} />
-        <TiddlywikiStorage/>
+        <TiddlywikiStorage />
       </main>
+      <div hx-target="this" hx-swap="outerHTML">
+        <div><label>First Name</label>: Joe</div>
+        <div><label>Last Name</label>: Blow</div>
+        <div><label>Email</label>: joe@blow.com</div>
+        <button hx-get="/contact/1/edit" className="btn btn-primary">
+          Click To Edit
+        </button>
+      </div>
     </>
   )
 }

@@ -11,7 +11,7 @@
 *img 2*
 <img src="https://user-images.githubusercontent.com/123137817/213966726-dd9d58ac-aa64-4388-952a-186cec456629.png" alt="image"/>
 
-#### Get started
+## Get started
 ```javascript
 npm install -g yarn
 npm run build

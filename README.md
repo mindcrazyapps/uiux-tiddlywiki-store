@@ -3,16 +3,15 @@
 </p>
 
 # tiddlywiki-storage
-#### If you can summarize in a few words what tiddlywiki-storage does?
-You can select storage for your tiddlywiki with tiddlywiki-storage
-
-#### How was tiddlywiki-storage made?
-tiddlywiki-storage is based from [Web3 UI Kit](https://github.com/devzstudio/Web3UIKit/)(Opensource Web3 UI Components using ReactJs, Styled Components) and [remotestorage-widget](https://github.com/remotestorage/remotestorage-widget). 
 
 #### Why use tiddlywiki-storage ?
 One of tiddlywiki's problems is the choice of storage - there are several plugins and settings. tiddlywiki-storage centralizes all storage decisions for the developer, user or business model into something easy and usable.
 
+#### If you can summarize in a few words, what tiddlywiki-storage does?
 It's a great option for setting up your tiddlywiki locally, remotely or on a network.
+
+#### How was tiddlywiki-storage made?
+tiddlywiki-storage is based from [Web3 UI Kit](https://github.com/devzstudio/Web3UIKit/)(Opensource Web3 UI Components using ReactJs, Styled Components) and [remotestorage-widget](https://github.com/remotestorage/remotestorage-widget). 
 
 #### What network protocols, apis, storage services do they offer?
 SFTP, FTP, Orbit-db, IPFS, Gitlab, GitHub, Dropbox, Google Drive etc.

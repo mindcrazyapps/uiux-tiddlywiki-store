@@ -9,7 +9,7 @@ const ConnectWalletComponents = () => {
       <PreviewComponent
         Component={TiddlywikiStorage}
         name=""
-        preview={'/previews/example1.png'}
+        preview={'/previews/img2.png'}
         source={`${Config.raw_component}choose_asset/Example1.tsx`}
       />
     </div>

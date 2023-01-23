@@ -315,7 +315,7 @@ const Example1 = () => {
 				<ModalOverlay>
 					<ModalConent ref={modalRef}>
 						<ModalHeader>
-							<h4>choose storage</h4>
+							<h3>choose storage</h3>
 							<div className="close" onClick={() => setShowModal(false)}>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"

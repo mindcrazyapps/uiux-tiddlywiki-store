@@ -5,8 +5,8 @@
 # tiddlywiki-storage
 ![image](https://user-images.githubusercontent.com/123137817/213960363-2426d595-ac35-437e-9fa7-0990d2c54f6d.png)
 
-#### get started
-```
+#### Get started
+```javascript
 npm install -g yarn
 npm run build
 npm run dev # npm run start

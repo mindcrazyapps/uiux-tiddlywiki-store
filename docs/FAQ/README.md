@@ -7,18 +7,6 @@ npm run build
 npm run dev # npm run start
 ```
 
-#### API & Settings
-*api*
-```html
-<script src="https://unpkg.com/htmx.org@1.8.5/dist/htmx.min.js"></script>
-<!-- have a button POST a click via AJAX -->
-<div hx-{get|post}="https://tiddlywiki-store.netlify.app/api/{send|get}/{databaseName|serviceDatabase|}/{first|latest|all|list|view}" hx-value={obj|json|xml|html|txt} hx-swap="outerHTML">
-</div>
-```
-
-*settings*
-
-
 #### Why use tiddlywiki-store?
 One of tiddlywiki's problems is the choice of storage - there are several plugins and settings. tiddlywiki-store centralizes all storage decisions for the developer, user or business model into something easy and usable.
 
@@ -26,7 +14,7 @@ One of tiddlywiki's problems is the choice of storage - there are several plugin
 Because... it's a great option for setting up your tiddlywiki locally, remotely or on a network.
 
 #### How was made tiddlywiki-store?
-tiddlywiki-store is based from [Web3 UI Kit](https://github.com/devzstudio/Web3UIKit/)(Opensource Web3 UI Components using ReactJs, Styled Components) and [remotestorage-widget](https://github.com/remotestorage/remotestorage-widget), [unhosted](https://unhosted.org/apps/), [self-hosted](https://selfhosted.show/), [nullboard](https://nullboard.io/preview). 
+tiddlywiki-store is based from [Web3 UI Kit](https://github.com/devzstudio/Web3UIKit/)(Opensource Web3 UI Components using ReactJs, Styled Components) and [remotestorage-widget](https://github.com/remotestorage/remotestorage-widget), [unhosted](https://unhosted.org/apps/), [self-hosted](https://selfhosted.show/), [nullboard](https://nullboard.io/preview), [webcomponents/hello-world-element](https://github.com/webcomponents/hello-world-element)
 
 #### How does tiddlywiki-store work? What tiddlywiki-store does?
 tiddlywiki-store works like an ["odbc"](https://learn.microsoft.com/en-us/sql/odbc/reference/what-is-odbc?view=sql-server-ver16) - a plugin that connects different storage services, network protocols, apis.

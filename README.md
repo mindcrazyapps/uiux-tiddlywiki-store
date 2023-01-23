@@ -12,8 +12,11 @@ It's a great option for setting up your tiddlywiki locally, remotely or on a net
 #### what network protocols, apis, storage services do they offer?
 SFTP, FTP, Orbit-db, IPFS, Gitlab, GitHub, Dropbox, Google Drive etc.
 
-*So, please see this live demo [here](https://tiddlywiki-storage.netlify.app/)*
+#### Demo?
+So, please see this live demo [here](https://tiddlywiki-storage.netlify.app/)
 
-#### 
+**img 1**
 ![image](./screenshot/example1.png)
+
+**img 2**
 ![image](./screenshot/example2.png)

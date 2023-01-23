@@ -9,7 +9,7 @@ const ConnectWalletComponents = () => {
 				<PreviewComponent
 					Component={Example1}
 					name=""
-					preview={'/previews/choose_storage/example1.png'}
+					preview={'/previews/example1.png'}
 					source={`${Config.raw_component}choose_asset/Example1.tsx`}
 				/>
 			</div>

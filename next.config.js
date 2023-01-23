@@ -7,12 +7,6 @@ module.exports = {
         protocol: 'https',
         hostname: 'tiddlywiki.com',
         port: '',
-        pathname: '/favicon.ico',
-      },
-      {
-        protocol: 'https',
-        hostname: 'tiddlywiki.com',
-        port: '',
         pathname: '/**',
       },
     ],

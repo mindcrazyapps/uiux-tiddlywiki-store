@@ -53,13 +53,5 @@ const PreviewComponent = ({ Component, preview, name, source }) => {
   )
 }
 
-/*
-<Link href="/">
-<a onClick={(e) => handleClick(e, "/about")}>About</a>
-</Link>{" "}
-<Link href="/">
-<a onClick={(e) => handleClick(e, "/posts")}>Posts</a>
-</Link>
-*/
 
 export default PreviewComponent

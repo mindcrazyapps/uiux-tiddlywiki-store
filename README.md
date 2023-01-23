@@ -6,7 +6,7 @@
 
 <h3 align="right"> Please see this live demo <a href="https://tiddlywiki-storage.netlify.app/"> here </a> </h3>
 
-# tiddlywiki-storage
+# <img src="./logo.svg"> tiddlywiki-storage
 <img src="./screenshot/img2.png" alt="image"/>
 
 *img*

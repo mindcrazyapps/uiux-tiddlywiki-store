@@ -1,19 +1,19 @@
-import React from 'react';
-import PreviewComponent from 'components/preview_component';
-import Example1 from 'components/kit/choose_storage/Example1';
-import Config from 'libs/config';
+import React from 'react'
+import PreviewComponent from 'components/preview_component'
+import Example1 from 'components/kit/choose_storage/Example1'
+import Config from 'libs/config'
 
 const ConnectWalletComponents = () => {
-	return (
-			<div>
-				<PreviewComponent
-					Component={Example1}
-					name=""
-					preview={'/previews/example1.png'}
-					source={`${Config.raw_component}choose_asset/Example1.tsx`}
-				/>
-			</div>
-	);
-};
+  return (
+    <div>
+      <PreviewComponent
+        Component={Example1}
+        name=""
+        preview={'/previews/example1.png'}
+        source={`${Config.raw_component}choose_asset/Example1.tsx`}
+      />
+    </div>
+  )
+}
 
-export default ConnectWalletComponents;
+export default ConnectWalletComponents

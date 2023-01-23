@@ -24,7 +24,7 @@ npm run dev # npm run start
 #### API & Settings
 *api*
 ```html
-<script src="https://unpkg.com/htmx.org@1.8.5"></script>
+<script src="https://unpkg.com/htmx.org@1.8.5/dist/htmx.min.js"></script>
 <!-- have a button POST a click via AJAX -->
 <button hx-post="/clicked" hx-swap="outerHTML">
   Click Me

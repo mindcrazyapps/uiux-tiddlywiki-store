@@ -311,7 +311,7 @@ const Example1 = () => {
     <div>
       <ChooseAssets onClick={() => setShowModal(true)}>
         {' '}
-        <Icon.Database style={{ color: 'black;' }} />{' '}
+        <Icon.Database />{' '}
       </ChooseAssets>
 
       {showModal && (

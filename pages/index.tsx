@@ -18,7 +18,7 @@ export default function Home() {
         <link rel="manifest" href="/site.webmanifest"/>
         <link rel="mask-icon" href="/static/favicon.ico" color="#5bbad5"/>
 	      <meta name="theme-color" content="#ffffff"/>
-        <script type="text/javascript" src="https://unpkg.com/htmx.org@1.8.5"></script>
+        <script  type="text/javascript" src="https://unpkg.com/htmx.org@1.8.5" async />
       </Head>
     </div>
     </>

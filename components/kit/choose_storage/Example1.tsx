@@ -335,7 +335,6 @@ const Example1 = () => {
             </ModalHeader>
 
             <AssetSearchWrapper>
-              <Icon.Search />
               <AssetSearch
                 onChange={(e) => setTerm(e.target.value)}
                 value={term}

@@ -33,7 +33,7 @@ tiddlywiki-storage is based from [Web3 UI Kit](https://github.com/devzstudio/Web
 Yes. So, please see this live demo [here](https://tiddlywiki-storage.netlify.app/) and please see this here:
 
 **img 1**
-![image](./screenshot/example1.png)
+<img src="https://user-images.githubusercontent.com/123137817/213966726-dd9d58ac-aa64-4388-952a-186cec456629.png" alt="image"/>
 
 **img 2**
 ![image](./screenshot/example2.png)

@@ -144,6 +144,9 @@ const OptionsSync = [
 		name: 'FTP',
 	},
 	{
+		name: 'Hypercore',
+	},
+	{
 		name: 'SFTP',
 	},
 	{
@@ -331,30 +334,13 @@ const Example1 = () => {
 								onChange={(e) => setTerm(e.target.value)}
 								value={term}
 								type="search"
-								placeholder="Search and choose storage for tiddlywiki"
+								placeholder="Search storage for tiddlywiki"
 							/>
-
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								width="24"
-								height="24"
-								viewBox="0 0 24 24"
-								fill="none"
-								stroke="currentColor"
-								strokeWidth="2"
-								strokeLinecap="round"
-								strokeLinejoin="round"
-								className="search_icon"
-							>
-								<circle cx="11" cy="11" r="8"></circle>
-								<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-							</svg>
 						</AssetSearchWrapper>
 						<AssetWrapper>
 							{OptionsSync.map((wallet, index) => (
 								<ChooseAsset key={index}>
-									{/* <img src={wallet.image} width="25px" height="25px" /> */}
-									<img src="https://cdn-icons-png.flaticon.com/512/1819/1819725.png" width="25px" height="25px" />
+									{/* <img src={wallet.image} width="25px" height="25px" /> <img src="https://cdn-icons-png.flaticon.com/512/1819/1819725.png" width="25px" height="25px" /> */}
 									{wallet.name}
 								</ChooseAsset>
 							))}

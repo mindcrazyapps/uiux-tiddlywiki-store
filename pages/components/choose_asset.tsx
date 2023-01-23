@@ -7,7 +7,6 @@ import Config from 'libs/config';
 
 const ConnectWalletComponents = () => {
 	return (
-		<ViewComponents name="tiddlywiki-storage">
 			<div>
 				<PreviewComponent
 					name="tiddlywiki-storage"
@@ -16,7 +15,6 @@ const ConnectWalletComponents = () => {
 					source={`${Config.raw_component}choose_asset/Example1.tsx`}
 				/>
 			</div>
-		</ViewComponents>
 	);
 };
 

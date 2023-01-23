@@ -16,11 +16,10 @@ a {
 }
 
 header {
-	background: #030303;
-	color: #fafafa;
+	background: white; /* #030303; */
+	color: black; /* #fafafa; */
 	border-bottom: 1px solid #ddd;
 	padding: 1rem;
-
 	display: flex;
 	align-items: center;
 	justify-content: space-between;

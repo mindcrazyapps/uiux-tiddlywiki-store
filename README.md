@@ -8,6 +8,8 @@
 
 <h4 align="center"> Please see this live demo <a href="https://tiddlywiki-store.netlify.app/"> here </a> </h3>
 
+See this [docs](https://mindcrazyapps.github.io/tiddlywiki-store/#/)
+
 # <img src="./logo.svg"> tiddlywiki-store
 
 *use case: Select storage for your tiddlywiki with tiddlywiki-store (ui)*

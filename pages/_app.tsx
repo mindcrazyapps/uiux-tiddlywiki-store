@@ -12,9 +12,8 @@ function MyApp({ Component, pageProps }) {
       <header>
         <Link href="/" as="/">
           <a className="logo" style={{ color: 'blue' }}>
-            <img src="/static/favicon.ico" width="40px" height="40px" />
             <Icon.Database />
-            storage
+            tiddlywiki-storage
           </a>
         </Link>
         <nav>

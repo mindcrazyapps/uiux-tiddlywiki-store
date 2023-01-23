@@ -21,7 +21,8 @@ npm run build
 npm run dev # npm run start
 ```
 
-#### API
+#### API & Settings
+*api*
 ```html
 <script src="https://unpkg.com/htmx.org@1.8.5"></script>
 <!-- have a button POST a click via AJAX -->
@@ -30,7 +31,8 @@ npm run dev # npm run start
 </button>
 ```
 
-#### Settings
+*settings*
+
 | Type               	| Cookies            	| Local storage 	| Session Storage 	| Web SQL 	| Google Drive     	| Dropbox 	| NocoDB 	| Airtable 	| SeaTable 	| Grist 	|
 |--------------------	|--------------------	|---------------	|-----------------	|---------	|------------------	|---------	|---------	|---------	|---------	|---------	|
 | Capacity           	| 4kb                	| 10mb          	| 5mb             	| add     	| 15GB in freeplan 	| 2GB     	| 2GB     	| 2GB     	| 2GB     	| 2GB     	|

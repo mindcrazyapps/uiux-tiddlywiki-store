@@ -31,7 +31,7 @@ npm run dev # npm run start
 | Type               	| Cookies            	| Local storage 	| Session Storage 	| Web SQL 	| Google Drive     	| Dropbox 	| NocoDB 	| Airtable 	| SeaTable 	| Grist 	|
 |--------------------	|--------------------	|---------------	|-----------------	|---------	|------------------	|---------	|---------	|---------	|---------	|---------	|
 | Capacity           	| 4kb                	| 10mb          	| 5mb             	| add     	| 15GB in freeplan 	| 2GB     	| 2GB     	| 2GB     	| 2GB     	| 2GB     	|
-| Browsers           	| HTML4/HTML5        	| HTML5         	| HTML5           	| HTML4   	| add              	| add     	| add     	| add     	| add     	| add     	|
+| Browsers           	| HTML4/HTML5        	| HTML5         	| HTML5           	| HTML4   	| HTML5            	| HTML5   	| HTML5   	| HTML5   	| HTML5    | HTML5    |
 | Accessible from    	| Any Window         	| Any Window    	| Same tab        	| add     	| add              	| add     	| add     	| add     	| add     	| add     	|
 | Expires            	| Manually set       	| Never         	| Manually set    	| add     	| add              	| add     	| add     	| add     	| add     	| add     	|
 | Storage location   	| Browser and server 	| Browser only  	| On tab close    	| add     	| add              	| add     	| add     	| add     	| add     	| add     	|

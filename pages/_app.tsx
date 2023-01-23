@@ -4,7 +4,6 @@ import React, { useState } from 'react'
 import GitHubButton from 'react-github-button'
 import { AlertCircle } from 'react-feather'
 import '../styles/globals.css'
-import favicon from '../static/favicon.png'
 
 function MyApp({ Component, pageProps }) {
   const [tab, setTab] = useState(1)
@@ -13,7 +12,7 @@ function MyApp({ Component, pageProps }) {
       <header>
         <Link href="/components/choose_storage" as="/components/choose_storage">
           <a className="logo" style={{ color: 'blue' }}>
-            <Image src="./static/favicon.ico" width="40px" height="40px" />
+            <Image src="/favicon.ico" width="40px" height="40px" />
             storage
           </a>
         </Link>

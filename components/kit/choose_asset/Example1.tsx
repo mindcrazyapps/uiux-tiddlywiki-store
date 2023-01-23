@@ -138,166 +138,158 @@ const AssetWrapper = styled.div`
 	}
 `;
 
-const Assets = [
+// Multi sync for tiddlywiki-storage
+const OptionsSync = [
 	{
 		name: 'FTP',
-		image: '',
 	},
 	{
 		name: 'SFTP',
-		image: '',
 	},
 	{
 		name: 'SSH',
-		image: '',
 	},
 	{
 		name: 'Bluetooth',
-		image: '',
 	},
 	{
 		name: 'SMB',
-		image: '',
 	},
 	{
 		name: 'Google Drive',
-		image: '',
 	},
 	{
 		name: 'Dropbox',
-		image: '',
 	},
 	{
 		name: 'Remote-storage',
-		image: '',
 	},
 	{
-		name: 'Remote-storage & google drive',
-		image: '',
+		name: 'Remote-storage with sync in Google Drive',
 	},
 	{
-		name: 'Remote-storage & dropbox',
-		image: '',
+		name: 'Remote-storage with sync in Dropbox',
 	},
 	{
 		name: 'Tiddlywiki host',
-		image: '',
 	},
 	{
 		name: 'GitHub',
-		image: '',
 	},
 	{
 		name: 'Medium',
-		image: '',
 	},
 	{
 		name: 'Gitlab',
-		image: '',
 	},
 	{
 		name: 'Microsoft Access',
-		image: '',
 	},
 	{
 		name: 'SQLite',
-		image: '',
 	},
 	{
 		name: 'Postgres SQL',
-		image: '',
 	},
 	{
 		name: 'MongoDB',
-		image: '',
 	},
 	{
 		name: 'Couchdb',
-		image: '',
 	},
 	{
 		name: 'SQL Server',
-		image: '',
 	},
 	{
 		name: 'Local',
-		image: '',
 	},
 	{
 		name: 'Localstorage',
-		image: '',
 	},
 	{
 		name: 'Cookies',
-		image: '',
 	},
 	{
 		name: 'WebSQL',
-		image: '',
 	},
 	{
 		name: '5apps',
-		image: '',
 	},
 	{
 		name: 'Discourse',
-		image: '',
 	},
 	{
 		name: 'Microsoft Excel',
-		image: '',
 	},
 	{
 		name: 'Google Spreadsheets',
-		image: '',
 	},
 	{
 		name: 'Airtable',
-		image: '',
 	},
 	{
 		name: 'Baserow',
-		image: '',
 	},
 	{
 		name: 'Nocodb',
-		image: '',
 	},
 	{
 		name: 'Seatable',
-		image: '',
 	},
 	{
 		name: 'Grist',
-		image: '',
 	},
 	{
 		name: 'Codeberg',
-		image: '',
 	},
 	{
 		name: 'Bitbucket',
-		image: '',
 	},
 	{
 		name: 'SessionStorage',
-		image: '',
 	},
 	{
 		name: 'File access',
-		image: '',
 	},
 	{
 		name: 'Orbit-db',
-		image: '',
 	},
 	{
 		name: 'IPFS',
-		image: '',
 	},
 	{
 		name: 'IndexerDB',
 		image: '',
+	},
+	{
+		name: 'One Drive',
+	},
+	{
+		name: 'Meganzco',
+	},
+	{
+		name: 'Device',
+	},
+	{
+		name: 'WebDAV',
+	},
+	{
+		name: 'Sharepoint',
+	},
+	{
+		name: 'Firebase',
+	},
+	{
+		name: 'Back4App',
+	},
+	{
+		name: 'Goormide',
+	},
+	{
+		name: 'MySQL',
+	},
+	{
+		name: 'Mariadb',
 	},
 ];
 
@@ -315,7 +307,7 @@ const Example1 = () => {
 				<ModalOverlay>
 					<ModalConent ref={modalRef}>
 						<ModalHeader>
-							<h3>tiddlywiki-storage</h3>
+							<h3>choose storage</h3>
 							<div className="close" onClick={() => setShowModal(false)}>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -359,9 +351,10 @@ const Example1 = () => {
 							</svg>
 						</AssetSearchWrapper>
 						<AssetWrapper>
-							{Assets.map((wallet, index) => (
+							{OptionsSync.map((wallet, index) => (
 								<ChooseAsset key={index}>
-									<img src={wallet.image} width="25px" height="25px" />
+									{/* <img src={wallet.image} width="25px" height="25px" /> */}
+									<img src="https://cdn-icons-png.flaticon.com/512/1819/1819725.png" width="25px" height="25px" />
 									{wallet.name}
 								</ChooseAsset>
 							))}

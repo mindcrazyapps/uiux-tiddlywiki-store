@@ -85,10 +85,10 @@ nav a:hover svg {
 
 .tab_container .tabs button {
   padding: 0.5rem;
-  background-color: #f3f4f6;
+  background-color: white; /* #f3f4f6; */
   color: black; /* #6b7280; */
   border-radius: 0.25rem;
-  border: 1px solid #e5e7eb;
+  border: 1px solid white; /* #e5e7eb; */
   margin-right: 0.25rem;
   display: flex;
   align-items: center;

@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import React, { useState } from 'react'
 import GitHubButton from 'react-github-button'
 import { AlertCircle } from 'react-feather'
@@ -12,7 +11,7 @@ function MyApp({ Component, pageProps }) {
       <header>
         <Link href="/components/choose_storage" as="/components/choose_storage">
           <a className="logo" style={{ color: 'blue' }}>
-            <Image src="/static/favicon.ico" width="40px" height="40px" />
+            <img src="/static/favicon.ico" width="40px" height="40px" />
             storage
           </a>
         </Link>

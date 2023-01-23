@@ -1,6 +1,7 @@
 import useOnClickOutside from 'hooks/useOnClickoutside';
 import React, { useRef } from 'react';
 import styled from 'styled-components';
+import { Database } from 'react-feather';
 
 const ModalOverlay = styled.div`
 	background: hsla(0, 0%, 100%, 0.01) !important;
@@ -304,7 +305,7 @@ const Example1 = () => {
 
 	return (
 		<div>
-			<ChooseAssets onClick={() => setShowModal(true)}>tiddlywiki-storage</ChooseAssets>
+			<ChooseAssets onClick={() => setShowModal(true)}> <Database/> </ChooseAssets>
 
 			{showModal && (
 				<ModalOverlay>

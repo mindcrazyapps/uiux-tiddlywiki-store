@@ -30,7 +30,7 @@ nav {
 }
 
 nav a {
-	color: #6b7280;
+	color:black; /*#6b7280;*/
 	display: flex;
 	align-items: center;
 	font-size: 1rem;

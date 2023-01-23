@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
 						<AlertCircle /> Report bugs
 					</a>
 					<div className="stargazers">
-						<GitHubButton type="stargazers" namespace="mindcrazyapps" repo="tiddlywiki-storage" />
+						<GitHubButton type="stargazers" namespace="Devzstudio" repo="Web3UIKit" />
 					</div>
 				</nav>
 			</header>

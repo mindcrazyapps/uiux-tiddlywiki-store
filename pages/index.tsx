@@ -5,10 +5,10 @@ export default function Home() {
     <>
     <div>
       <Head>
-        <title>tiddlywiki-storage</title>
+        <title>tiddlywiki-store</title>
         <meta
           name="description"
-          content="tiddlywiki-storage by mindcrazyapps"
+          content="tiddlywiki-store by mindcrazyapps"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="icon" href="/static/favicon.ico"/>

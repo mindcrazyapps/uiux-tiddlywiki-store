@@ -140,7 +140,7 @@ const AssetWrapper = styled.div`
   }
 `
 
-// Multi sync for tiddlywiki-storage
+// Multi sync for tiddlywiki-store
 const OptionsSync = [
   {
     name: 'FTP',

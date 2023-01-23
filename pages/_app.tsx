@@ -13,12 +13,12 @@ function MyApp({ Component, pageProps }) {
         <Link href="/" as="/">
           <a className="logo" style={{ color: 'blue' }}>
             <Icon.Database />
-            tiddlywiki-storage
+            tiddlywiki-store
           </a>
         </Link>
         <nav>
           <a
-            href="https://github.com/mindcrazyapps/tiddlywiki-storage/issues/new"
+            href="https://github.com/mindcrazyapps/tiddlywiki-store/issues/new"
             target="_blank"
             rel="noreferrer"
           >

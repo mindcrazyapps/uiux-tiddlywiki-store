@@ -6,7 +6,7 @@
 
 <h4 align="center"> Please see this live demo <a href="https://tiddlywiki-storage.netlify.app/"> here </a> </h3>
 
-# <img src="./logo.svg"> app-storage
+# <img src="./logo.svg"> appstore
 <img src="./screenshot/img2.png" alt="image"/>
 
 *img*
@@ -33,15 +33,15 @@ npm run dev # npm run start
 
 *settings*
 
-| Type               	| Cookies            	| Local storage 	| Session Storage 	| Web SQL 	| Google Drive     	| Dropbox 	| NocoDB 	| Airtable 	| SeaTable 	| Grist 	|
-|--------------------	|--------------------	|---------------	|-----------------	|---------	|------------------	|---------	|---------	|---------	|---------	|---------	|
-| Capacity           	| 4kb                	| 10mb          	| 5mb             	| add     	| 15GB in freeplan 	| 2GB     	| 2GB     	| 2GB     	| 2GB     	| 2GB     	|
-| Browsers           	| HTML4/HTML5        	| HTML5         	| HTML5           	| HTML4   	| HTML5            	| HTML5   	| HTML5   	| HTML5   	| HTML5    | HTML5    |
-| Accessible from    	| Any Window         	| Any Window    	| Same tab        	| add     	| add              	| add     	| add     	| add     	| add     	| add     	|
-| Expires            	| Manually set       	| Never         	| Manually set    	| add     	| add              	| add     	| add     	| add     	| add     	| add     	|
-| Storage location   	| Browser and server 	| Browser only  	| On tab close    	| add     	| add              	| add     	| add     	| add     	| add     	| add     	|
-| API?               	| No                 	| No            	| No              	| No      	| No               	| No      	| add     	| add     	| add     	| add     	|
-| Sent with requests 	| Yes                	| No            	| No              	| No      	| Yes              	| Yes     	| Yes     	| Yes     	| Yes     	| Yes     	|
+| Type               	| Cookies            	| Local storage 	| Session Storage 	| Web SQL 	| Google Drive     	| Dropbox 	| NocoDB 	| Airtable 	| SeaTable | Grist  	| IndexDB  	| HistoryPush  	|
+|--------------------	|--------------------	|---------------	|-----------------	|---------	|------------------	|---------	|---------	|---------	|---------	|--------	|--------	|--------	|
+| Capacity           	| 4kb                	| 10mb          	| 5mb             	| add     	| 15GB in freeplan 	| 2GB     	| 2GB     	| 2GB     	| 2GB     	| 2GB    	| 2GB    	|2GB    	|
+| Browsers           	| HTML4/HTML5        	| HTML5         	| HTML5           	| HTML4   	| HTML5            	| HTML5   	| HTML5   	| HTML5   	| HTML5    | HTML5   | 2GB    	|2GB    	|
+| Accessible from    	| Any Window         	| Any Window    	| Same tab        	| add     	| add              	| add     	| add     	| add     	| add     	| add    	| 2GB    	|2GB    	|
+| Expires            	| Manually set       	| Never         	| Manually set    	| add     	| add              	| add     	| add     	| add     	| add     	| add    	| 2GB    	|2GB    	|
+| Storage location   	| Browser and server 	| Browser only  	| On tab close    	| add     	| add              	| add     	| add     	| add     	| add     	| add    	| 2GB    	|2GB    	|
+| API?               	| No                 	| No            	| No              	| No      	| No               	| No      	| add     	| add     	| add     	| add    	| 2GB    	|2GB    	|
+| Sent with requests 	| Yes                	| No            	| No              	| No      	| Yes              	| Yes     	| Yes     	| Yes     	| Yes     	| Yes    	|Yes    	|Yes    	|
 
 #### Why use tiddlywiki-storage?
 One of tiddlywiki's problems is the choice of storage - there are several plugins and settings. tiddlywiki-storage centralizes all storage decisions for the developer, user or business model into something easy and usable.

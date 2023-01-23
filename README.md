@@ -8,9 +8,9 @@
 
 <h4 align="center"> Please see this live demo <a href="https://tiddlywiki-storage.netlify.app/"> here </a> </h3>
 
-# <img src="./logo.svg"> app-store
+# <img src="./logo.svg"> tiddlywiki-store
 
-*use case: Select storage for your tiddlywiki with app-store (ui)*
+*use case: Select storage for your tiddlywiki with tiddlywiki-store (ui)*
 <img src="./screenshot/img2.png" alt="image"/>
 
 *img*
@@ -47,19 +47,19 @@ npm run dev # npm run start
 | API?               	| No                 	| No            	| No              	| No      	| No               	| No      	| add     	| add     	| add     	| add    	| 2GB    	|2GB    	|
 | Sent with requests 	| Yes                	| No            	| No              	| No      	| Yes              	| Yes     	| Yes     	| Yes     	| Yes     	| Yes    	|Yes    	|Yes    	|
 
-#### Why use app-store?
-One of tiddlywiki's problems is the choice of storage - there are several plugins and settings. app-store centralizes all storage decisions for the developer, user or business model into something easy and usable.
+#### Why use tiddlywiki-store?
+One of tiddlywiki's problems is the choice of storage - there are several plugins and settings. tiddlywiki-store centralizes all storage decisions for the developer, user or business model into something easy and usable.
 
-#### But... so... why use app-store?
+#### But... so... why use tiddlywiki-store?
 Because... it's a great option for setting up your tiddlywiki locally, remotely or on a network.
 
-#### How was made app-store?
-app-store is based from [Web3 UI Kit](https://github.com/devzstudio/Web3UIKit/)(Opensource Web3 UI Components using ReactJs, Styled Components) and [remotestorage-widget](https://github.com/remotestorage/remotestorage-widget), [unhosted](https://unhosted.org/apps/), [self-hosted](https://selfhosted.show/), [nullboard](https://nullboard.io/preview). 
+#### How was made tiddlywiki-store?
+tiddlywiki-store is based from [Web3 UI Kit](https://github.com/devzstudio/Web3UIKit/)(Opensource Web3 UI Components using ReactJs, Styled Components) and [remotestorage-widget](https://github.com/remotestorage/remotestorage-widget), [unhosted](https://unhosted.org/apps/), [self-hosted](https://selfhosted.show/), [nullboard](https://nullboard.io/preview). 
 
-#### How does app-store work? What app-store does?
-app-store works like an ["odbc"](https://learn.microsoft.com/en-us/sql/odbc/reference/what-is-odbc?view=sql-server-ver16) - a plugin that connects different storage services, network protocols, apis.
+#### How does tiddlywiki-store work? What tiddlywiki-store does?
+tiddlywiki-store works like an ["odbc"](https://learn.microsoft.com/en-us/sql/odbc/reference/what-is-odbc?view=sql-server-ver16) - a plugin that connects different storage services, network protocols, apis.
 
-#### What network protocols, apis, storage services - app-store have?
+#### What network protocols, apis, storage services - tiddlywiki-store have?
 - Network protocols: SFTP, Git, FTP, SSH, IPFS, SMDB.
 - Browser storage: Local-Storage, Session-Storage, Cookie, IndexedDB, FileSystem and WebSQL.
 - Api&Storage Services: Gitlab, GitHub, Dropbox, Google Drive, Fission, Tiddlywiki Host, Orbit-db, SQLite, SQLServer, MySQL, MariaDB, MONGODB, Baserow, Seatable, Airtable, NocoDB and Filesystem Local.
@@ -81,8 +81,8 @@ app-store works like an ["odbc"](https://learn.microsoft.com/en-us/sql/odbc/refe
 
 ## Contributors
 
-<a href="https://github.com/mindcrazyapps/app-store/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=mindcrazyapps/app-store" />
+<a href="https://github.com/mindcrazyapps/tiddlywiki-store/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=mindcrazyapps/tiddlywiki-store" />
 </a>
 
 ## License

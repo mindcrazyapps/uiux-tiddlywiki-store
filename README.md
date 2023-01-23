@@ -4,7 +4,7 @@ tiddlywiki-storage is based from [Web3 UI Kit](https://github.com/devzstudio/Web
 *So, please see this live demo [here](https://tiddlywiki-storage.netlify.app/)*
 
 #### Select storage for your tiddlywiki with tiddlywiki-storage
-![image](./previews/choose_asset/example1.png)
+![image](./public/previews/choose_asset/example1.png)
 ![image](./previews/choose_asset/example2.png)
 
 

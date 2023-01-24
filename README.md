@@ -18,7 +18,7 @@
 <img src="./screenshot/img1.png" alt="image"/>
 
 ### License & Contributors
-This code is licensed under the MIT license and contributors here:
+ui-ux-tiddlywiki-store.js is available under the MIT license and contributors here:
 
 <a href="https://github.com/mindcrazyapps/tiddlywiki-store/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=mindcrazyapps/tiddlywiki-store" />

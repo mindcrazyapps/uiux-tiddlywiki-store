@@ -16,7 +16,7 @@
 *img*
 <img src="./screenshot/img1.png" alt="image"/>
 
-## License & Contributors
+#### License & Contributors
 This code is licensed under the MIT license and contributors here:
 
 <a href="https://github.com/mindcrazyapps/tiddlywiki-store/graphs/contributors">

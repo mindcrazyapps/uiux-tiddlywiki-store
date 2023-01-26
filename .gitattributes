@@ -1,0 +1,21 @@
+# Linguist overrides
+*.html linguist-vendored=false
+*.html linguist-generated=false
+*.html linguist-documentation=false
+*.html linguist-detectable=true
+*.md linguist-vendored=false
+*.md linguist-generated=false
+*.md linguist-documentation=false
+*.md linguist-detectable=true
+*.css linguist-vendored=false
+*.css linguist-generated=false
+*.css linguist-documentation=false
+*.css linguist-detectable=true
+*.ts linguist-vendored=false
+*.ts linguist-generated=false
+*.ts linguist-documentation=false
+*.ts linguist-detectable=true
+*.js linguist-vendored=false
+*.js linguist-generated=false
+*.js linguist-documentation=false
+*.js linguist-detectable=true
